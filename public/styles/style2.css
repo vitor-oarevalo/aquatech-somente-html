@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: #000508;
+    color: white;
+    height: 15vh;
+    border-bottom: 5px solid #00b7ff;
+}
+
+h1.titulo {
+    color: #00b7ff;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.container ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+}
+
+.container ul li a {
+    color: #ad8251;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+}
+
+.card-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: lightgray;
+    padding: 15px;
+}
+
+.card-login h2, .card-cadastro h2 {
+    font-size: 2em;
+    color: #ff008c;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.campo {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.campo span {
+    color: #ff008c;
+}
+
+.campo input {
+    text-align: center;
+    height: 40px;
+    outline: none;
+    border: 2px solid #00b7ff;
+    border-radius: 10px;
+}
+
+.botao {
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: #ff008c;
+}
+
+.footer {
+    padding-top: 20px;
+    height: 30vh;
+    background-color: #00b7ff;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+
+.login .container2 {
+    border-radius: 15px;
+    padding: 15px;
+    background-color: lightgray;
+}
+
+.login .container  {
+    width: 600px;
+}   
+
+
+.card-cadastro {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
